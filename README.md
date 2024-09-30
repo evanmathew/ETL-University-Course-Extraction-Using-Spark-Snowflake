@@ -1,8 +1,10 @@
 # 🚀 Project Overview: University Course Data Extraction Pipeline🚀
 
+
 Let’s imagine you’re a client managing tons of university course information scattered across numerous text files. You want an efficient way to extract and organize all the key details, like course schedules, professor names, and class codes, and then store them in a data warehouse for easy access. This project does just that—building a pipeline to extract data from text files, process it, and load it into Snowflake, a modern cloud data warehouse.
 
 ⚡ **Quick Note:** While I worked with a small set of sample files (just 4-5), this setup can scale up to handle hundreds or even thousands of text files. It’s built to grow!
+
 
 
 
@@ -22,6 +24,8 @@ Once we’ve processed the data, it’s time to load it into Snowflake—a super
 
 ### 4) Automating the Pipeline with Docker 🐳
 The entire setup is containerized using Docker. This means the pipeline is portable, scalable, and easy to run or share across different environments.
+
+
 
 
 ## 💻 What You’ll Need: Requirements

@@ -117,13 +117,13 @@ selected_columns_df = extracted_df.select(
 
 # Snowflake connection options
 sf_options = {
-    "sfURL" : "https://gshxrdw-yd03702.snowflakecomputing.com",
-    "sfUser" : "Reterro",
-    "sfPassword" : "Reterro%%1357",
-    "sfDatabase" : "COURSE_INFORMATION",
-    "sfSchema" : "RETERRO",
-    "sfWarehouse" : "COURSE_INFO_WAREHOUSE",
-    "sfRole": "ACCOUNTADMIN"
+    "sfURL": "https://your_account.snowflakecomputing.com",
+    "sfDatabase": "COURSE_INFORMATION",
+    "sfSchema": "PUBLIC",
+    "sfWarehouse": "COURSE_INFO_WAREHOUSE ",
+    "sfRole": "MY_ROLE", # role that you have created (generally 'ACCOUNTADMIN')
+    "sfUser": "my_username", # username that you created during account setup
+    "sfPassword": "my_password" # password that you created during account 
 }
 
 # Write data to Snowflake

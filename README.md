@@ -129,7 +129,7 @@ Submitting the spark application that we have created in `./spark_apps/python_jo
 make submit app=python_job.py
 ```
 
-### 5.  Access the Services
+### 6.  Access the Services
 - Spark Master UI: [http://localhost:9090](http://localhost:9090)
 - Spark History Server: [http://localhost:18080](http://localhost:18080)
 - Snowflake Database: 

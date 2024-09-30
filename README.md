@@ -71,6 +71,11 @@ Docker containers ensure the project can run consistently across different envir
 
 ---
 
+## Project Architecture
+![Project Architecture](asset_image.png)
+
+---
+
 ## 🛠️ **How to Use This Project**
 
 ### 1. Clone the Repository
@@ -168,7 +173,3 @@ make submit app=python_job.py
 8. **Project Reference**  
    Most of the project inspiration are from this video and you might find various other ETL projects that might help you :)   
    Link: [YouTube](https://www.youtube.com/watch?v=M6BWTnMH77M&t=7250s)
-
-
-## Project Architecture
-![Project Architecture](asset_image.png)

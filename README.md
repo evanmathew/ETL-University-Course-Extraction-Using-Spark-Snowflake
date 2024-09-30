@@ -111,7 +111,7 @@ CREATE WAREHOUSE COURSE_INFO_WAREHOUSE WITH WAREHOUSE_SIZE = 'XSMALL' AUTO_SUSPE
 ```
 3. You need to add the `sfOptions` dictionary to your `python_job.py` file so that Spark can connect to your Snowflake database during the ETL process.
 ```bash
-sfOptions = {
+sf_options= {
     "sfURL": "https://your_account.snowflakecomputing.com",
     "sfDatabase": "COURSE_INFORMATION",
     "sfSchema": "PUBLIC",
@@ -129,7 +129,7 @@ Submitting the spark application that we have created in `./spark_apps/python_jo
 make submit app=python_job.py
 ```
 
-### 6.  Access the Services
+### 5.  Access the Services
 - Spark Master UI: [http://localhost:9090](http://localhost:9090)
 - Spark History Server: [http://localhost:18080](http://localhost:18080)
 - Snowflake Database: 

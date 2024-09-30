@@ -171,4 +171,4 @@ make submit app=python_job.py
 
 
 ## Project Architecture
-![Project Architecture](/Group 4 (1).png)
+![Project Architecture](asset_image.png)

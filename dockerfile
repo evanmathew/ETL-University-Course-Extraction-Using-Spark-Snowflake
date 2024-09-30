@@ -31,7 +31,11 @@ RUN curl https://archive.apache.org/dist/spark/spark-3.3.1/spark-3.3.1-bin-hadoo
  && tar xvzf spark-3.3.1-bin-hadoop3.tgz --directory /opt/spark --strip-components 1 \
  && rm -rf spark-3.3.1-bin-hadoop3.tgz
 
+
+
+
 FROM spark-base as pyspark
+
 # Add Snowflake Spark Connector and JDBC drivers
 RUN curl -L -o /opt/spark/jars/snowflake-jdbc.jar https://repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.14/snowflake-jdbc-3.13.14.jar
 RUN curl -L -o /opt/spark/jars/spark-snowflake_2.12.jar https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.12/2.10.0-spark_3.2/spark-snowflake_2.12-2.10.0-spark_3.2.jar
